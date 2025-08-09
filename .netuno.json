@@ -1,0 +1,77 @@
+{
+  "name": "api_1",
+  "description": "Introduction to API REST development with JavaScript using the Netuno Platform.",
+  "type": "app",
+  "config": {
+    "development": {
+      "commands": [{
+        "command": "pnpm run watch",
+        "enabled": false,
+        "install": "pnpm install",
+        "path": "ui"
+      }],
+      "cors": [{
+        "enabled": true,
+        "origins": ["*"]
+      }],
+      "cron": {"jobs": []},
+      "db": {"default": {
+        "engine": "h2",
+        "host": "",
+        "name": "api",
+        "password": "",
+        "port": "",
+        "username": "sa"
+      }},
+      "language": "pt_BR",
+      "locale": "pt_BR",
+      "name": "api_1",
+      "remote": {},
+      "settings": {"public": {}},
+      "setup": {
+        "enabled": true,
+        "schema": {
+          "auto_create": true,
+          "execution": true
+        },
+        "scripts": {"execution": true}
+      },
+      "smtp": {}
+    },
+    "production": {
+      "commands": [{
+        "command": "pnpm run watch",
+        "enabled": false,
+        "install": "pnpm install",
+        "path": "ui"
+      }],
+      "cors": [{
+        "enabled": true,
+        "origins": ["*"]
+      }],
+      "cron": {"jobs": []},
+      "db": {"default": {
+        "engine": "h2",
+        "host": "",
+        "name": "api",
+        "password": "",
+        "port": "",
+        "username": "sa"
+      }},
+      "language": "pt_BR",
+      "locale": "pt_BR",
+      "name": "api_1",
+      "remote": {},
+      "settings": {"public": {}},
+      "setup": {
+        "enabled": true,
+        "schema": {
+          "auto_create": true,
+          "execution": true
+        },
+        "scripts": {"execution": true}
+      },
+      "smtp": {}
+    }
+  }
+}
