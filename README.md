@@ -1,10 +1,10 @@
 # api_1
 
-Introduction to API REST development with JavaScript using the Netuno Platform.
+Introduction to API REST Low-Code development with JavaScript using the Netuno Platform.
 
 Tutorial video in portuguese:
 
-<a href="http://www.youtube.com/watch?v=mG12ZRgBlQk" target="_blank" title="Introdução API REST JSON em JS - Parte 1">
+<a href="http://www.youtube.com/watch?v=mG12ZRgBlQk" target="_blank" title="Introdução API REST JSON em JS Low Code - Parte 1">
  <img src="https://raw.githubusercontent.com/sitana-company/api_1/main/docs/video.jpg" alt="Tutorial Video" width="320" height="180" />
 </a>
 
